@@ -1,0 +1,17 @@
+.btn-custom-primary {
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    width: 150px;
+    color: white;
+    background-color: #2a8dfd;
+    border: none;
+    border-radius: 20px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.btn-custom-primary:hover {
+    color: white;
+    background-color: #005ac0;
+}

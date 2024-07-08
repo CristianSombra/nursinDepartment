@@ -2,8 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Image } from "cloudinary-react";
 import { motion } from "framer-motion";
+import { AnimateProps } from "../../components";
 import index from "../../assets";
-import "../../styles";
+import "@/styles";
 
 const sentence = "Si salvas una vida eres un héroe, pero si salvas 100 eres un enfermero";
 
@@ -23,9 +24,14 @@ const letterVariants = {
     visible: { opacity: 1, x: 0 }
 };
 
-const Landing: React.FC = () => {
+const Landing: React.FC<AnimateProps> = ({animate}) => {
     return(
-        <div className="container vh-100 d-flex justify-content-center align-items-center">
+        <motion.section 
+            className="container vh-100 d-flex justify-content-center align-items-center"
+            initial={{ opacity: 0 }}
+            animate={animate ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ duration: 0.6 }}
+            >
             <div className="row">
                 <div className="col-12 text-center">
                         <Image cloudName="nursingstaff" publicId={index.logoLanding} className="img-fluid logo-landing" alt="Logo" />
@@ -58,7 +64,7 @@ const Landing: React.FC = () => {
                         </p>
                     </div>
             </div>
-        </div>
+        </motion.section>
     )
 };
 

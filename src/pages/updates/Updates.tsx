@@ -1,10 +1,16 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { AnimateProps } from "../../components";
 
-const Updates: React.FC = () => {
+const Updates: React.FC<AnimateProps>= ({animate}) => {
     return(
-        <div>
+        <motion.section
+            initial={{ opacity: 0 }}
+            animate={animate ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ duration: 0.6 }}
+            >
             <h1>Capacitaciones</h1>
-        </div>
+        </motion.section>
     )
 };
 

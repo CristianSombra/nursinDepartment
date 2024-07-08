@@ -3,7 +3,7 @@ import '../../styles';
 
 export const SpinnerLoader: React.FC = () => {
     return(
-        <div className="spinner-loader">
+        <div className="spinner-container">
             <img src="./sp.svg" alt="Spinner" className="spinner mb-3"/>
         </div>
     );

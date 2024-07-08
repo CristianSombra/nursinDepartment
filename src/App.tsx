@@ -1,6 +1,6 @@
 import { Suspense } from 'react'
-import { SpinnerLoader } from './components';
 import AppRouter from './routes/AppRouter'
+import { SpinnerLoader } from './components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import './App.css'

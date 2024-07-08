@@ -4,7 +4,7 @@ import { Image } from "cloudinary-react";
 import { motion } from "framer-motion";
 import { AnimateProps } from "../../components";
 import index from "../../assets";
-import "@/styles";
+import "../../styles";
 
 const sentence = "Si salvas una vida eres un héroe, pero si salvas 100 eres un enfermero";
 

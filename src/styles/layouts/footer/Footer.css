@@ -1,0 +1,29 @@
+footer {
+    background: #1c92d2;
+    background: -webkit-linear-gradient(to top, #1c92d2, #f2fcfe);
+    background: linear-gradient(to top, #1c92d2, #f2fcfe);
+}
+
+.icon-custom {
+    padding: 4px;
+    font-size: 42px;
+    color: rgb(11, 11, 11);
+    transition: transform 0.3s ease;
+}
+
+.icon-custom:hover {
+    transform: scale(1.1);
+}
+
+
+.icon-instagram:hover {
+    color: #de044d;
+}
+
+.icon-facebook:hover {
+    color: #1877F2;
+}
+
+.icon-web:hover {
+    color: #ffa200;
+}

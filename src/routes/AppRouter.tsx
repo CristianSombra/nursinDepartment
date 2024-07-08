@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
-import { Navbar } from "../layouts";
+import { Navbar, Footer } from "../layouts";
 import { 
     Landing,
     Home,
@@ -13,6 +13,7 @@ import {
 const AppRouter: React.FC = () => {
     const location = useLocation();
     const showNav = location.pathname !== "/";
+    const showFooter = location.pathname !== "/";
     const [landingRef, landingInView] = useInView({ threshold: 0.30 });
     const [homeRef, homeInView] = useInView({ threshold: 0.25 });
     const [updatesRef, updatesInView] = useInView({ threshold: 0.25 });
@@ -29,7 +30,7 @@ const AppRouter: React.FC = () => {
                 <Route path="/Licenses" element={<div ref={licensesRef}><Licenses animate={licencesInView} /></div>} />
                 <Route path="/Contact" element={<div ref={contactRef}><Contact animate={contacInView} /></div>} />
             </Routes>
-
+            {showFooter && <Footer/>}
         </>
     );
 }

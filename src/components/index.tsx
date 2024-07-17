@@ -1,5 +1,5 @@
-import { SpinnerLoader } from "./spinnerLoader/SpinnerLoader";
-import AnimateProps from "./animateProps/AnimateProps";
+import ScrollTop from './scrollTop/ScrollTop';
+export * from './spinnerLoader/SpinnerLoader';
+export * from './pages';
 
-export {SpinnerLoader};
-export type { AnimateProps};
+export { ScrollTop }

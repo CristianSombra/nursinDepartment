@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Image } from "cloudinary-react";
 import { motion } from "framer-motion";
-import { AnimateProps } from "../../components";
+import { AnimateProps } from "../../utils";
 import index from "../../assets";
 import "../../styles";
 

@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
 import { Navbar, Footer } from "../layouts";
+import { ScrollTop } from "../components";
 import { 
     Landing,
     Home,
@@ -23,6 +24,7 @@ const AppRouter: React.FC = () => {
     return(
         <>
             {showNav && <Navbar/>}
+            <ScrollTop/>
             <Routes>
                 <Route path="/" element={<div ref={landingRef}><Landing animate={landingInView} /></div>} />
                 <Route path="/Home" element={<div ref={homeRef}><Home animate={homeInView} /></div>} />

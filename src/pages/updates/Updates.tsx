@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { AnimateProps } from "../../components";
+import { AnimateProps } from "../../utils";
 
 const Updates: React.FC<AnimateProps>= ({animate}) => {
     return(

@@ -85,7 +85,7 @@
 /* Sección Preguntas frecuentes */
 
 .accordion-custom {
-    background-color: #f2fcfe;
+    background-color: #f2fcfe !important;
 }
 
 

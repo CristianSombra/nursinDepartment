@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { CarouselNews } from "./CarouselNews";
-import { ModalInformationA } from "../../modalInformation/ModalInformation";
+import { ModalInformationA } from "../../../modalInformation/ModalInformation";
 // import { handleButtonClick } from "../formInscription/formInscription";
 
 

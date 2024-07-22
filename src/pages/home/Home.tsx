@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { AnimateProps } from "../../utils";
-import { BannerHome, CarouselHome } from "../../components";
+import { BannerHome, CarouselHome, SectionNews, SectionFrequentQuestions } from "../../components";
 
 const Home: React.FC<AnimateProps>= ({animate}) => {
     return(
@@ -20,6 +20,16 @@ const Home: React.FC<AnimateProps>= ({animate}) => {
             {/* Sección Anuncios próximos */}
             <section className="container">
                 <CarouselHome/>
+            </section>
+
+            {/* Sección Novedades */}
+            <section className="container">
+                <SectionNews/>
+            </section>
+
+                        {/* Sección Preguntas frecuentes */}
+            <section className="container">
+                <SectionFrequentQuestions/>
             </section>
 
         </motion.section>

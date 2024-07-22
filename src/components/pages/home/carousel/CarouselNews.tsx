@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "cloudinary-react";
-import HomeImages from "../../../assets";
+import HomeImages from "../../../../assets";
 
 export const CarouselNews: React.FC = React.memo(() => {
     return(

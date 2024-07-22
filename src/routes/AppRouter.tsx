@@ -16,7 +16,7 @@ const AppRouter: React.FC = () => {
     const showNav = location.pathname !== "/";
     const showFooter = location.pathname !== "/";
     const [landingRef, landingInView] = useInView({ threshold: 0.30 });
-    const [homeRef, homeInView] = useInView({ threshold: 0.25 });
+    const [homeRef, homeInView] = useInView({ threshold: 0.20 });
     const [updatesRef, updatesInView] = useInView({ threshold: 0.25 });
     const [licensesRef, licencesInView] = useInView({ threshold: 0.25 });
     const [contactRef, contacInView] = useInView({ threshold: 0.25 });

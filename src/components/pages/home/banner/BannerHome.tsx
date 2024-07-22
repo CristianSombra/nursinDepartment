@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Image } from "cloudinary-react";
-import HomeImages from "../../../assets";
-import "../../../styles";
+import HomeImages from "../../../../assets";
+import "../../../../styles";
 
 const sentence = "Ser Enfermero es más que un oficio, es una fusión de Ciencia, Corazón, Fortaleza y Humanidad.";
 

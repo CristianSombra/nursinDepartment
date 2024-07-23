@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { AnimateProps } from "../../utils";
-import { BannerUpdates, TitleUpdates, BannerUpdatesMobile, TitleUpdatesMobile, UpdatesSections } from "../../components";
+import { BannerUpdates, TitleUpdates, BannerUpdatesMobile, TitleUpdatesMobile, UpdatesSections, DownloadFiles } from "../../components";
 import "../../styles"
 
 const Updates: React.FC<AnimateProps>= ({animate}) => {
@@ -36,6 +36,11 @@ const Updates: React.FC<AnimateProps>= ({animate}) => {
             <div className="container">
                 <UpdatesSections/>
             </div>
+
+            {/* Sección Materiales de utilidad */}
+            <section className="container">
+                <DownloadFiles/>
+            </section>
 
         </motion.section>
     )

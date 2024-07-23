@@ -15,11 +15,11 @@ const AppRouter: React.FC = () => {
     const location = useLocation();
     const showNav = location.pathname !== "/";
     const showFooter = location.pathname !== "/";
-    const [landingRef, landingInView] = useInView({ threshold: 0.10 });
-    const [homeRef, homeInView] = useInView({ threshold: 0.10 });
-    const [updatesRef, updatesInView] = useInView({ threshold: 0.25 });
-    const [licensesRef, licencesInView] = useInView({ threshold: 0.25 });
-    const [contactRef, contacInView] = useInView({ threshold: 0.25 });
+    const [landingRef, landingInView] = useInView({ triggerOnce: true, rootMargin: "0px 0px -50px 0px"});
+    const [homeRef, homeInView] = useInView({ triggerOnce: true, rootMargin: "0px 0px -50px 0px" });
+    const [updatesRef, updatesInView] = useInView({ triggerOnce: true, rootMargin: "0px 0px -50px 0px" });
+    const [licensesRef, licencesInView] = useInView({ triggerOnce: true, rootMargin: "0px 0px -50px 0px" });
+    const [contactRef, contacInView] = useInView({ triggerOnce: true, rootMargin: "0px 0px -50px 0px" });
 
     return(
         <>

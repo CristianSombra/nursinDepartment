@@ -1,0 +1,74 @@
+.container-contact-title {
+    width: 80%;
+    background: linear-gradient(to right, #7dd4ff, #fdd1a3);
+}
+
+.orange-rectangle-contact {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 250px;
+    height: 200px;
+    background-color: #fab35d;
+    z-index: -1;
+}
+
+.blue-rectangle-contact {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 250px;
+    height: 200px;
+    background-color: #66adfe;
+    z-index: -1;
+}
+
+
+/* Formulario  */
+
+
+.custom-input {
+    width: 100%;
+    background: none;
+    color: black;
+    font-size: 1rem;
+    padding: .6rem .3rem;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    border-bottom: 1px solid rgb(2, 145, 255);
+}
+
+.custom-input:focus + .custom-label,
+.custom-input:not(:placeholder-shown) + .custom-label{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+    color: black;
+}
+
+.custom-label {
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+}
+
+
+.custom-area {
+    height: 192px;
+}
+
+
+@media (max-width: 768px) {
+    .container-contact-title {
+        width: 100%;
+    }
+    
+    .blue-rectangle-contact,
+    .orange-rectangle-contact {
+        display: none;
+    }
+}

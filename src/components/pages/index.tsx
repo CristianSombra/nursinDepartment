@@ -11,5 +11,6 @@ export const DownloadFiles = lazy(()=> import('./updates/downloadFiles/DownloadF
 export const TitleLicenses = lazy(() => import('./licenses/title/TitleLicenses'));
 export const LicensesFirstSection = lazy(() => import('./licenses/licensesSection1/LicensesFirstSection'));
 export const LicensesSecondSection = lazy(() => import('./licenses/licensesSection2/LicensesSecondSection'));
+export const FormContact = lazy(() => import('./contact/form/FormContact'));
 export { BannerUpdates, BannerUpdatesMobile };
 export { TitleUpdates, TitleUpdatesMobile };

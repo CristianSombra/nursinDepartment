@@ -18,7 +18,7 @@ const UpdatesSections: React.FC = () => {
                             Capacitaciones mes de Junio
                     </motion.h4>
                     <div className="row d-flex justify-content-around mx-auto">
-                        <div className="col-12 col-md-8 col-lg-5 my-3">
+                        <div className="col-12 col-md-6 col-lg-5 my-3">
                             <motion.div
                                 className="card card-custom text-center text-md-start">
                                     <Image cloudName="nursingStaff" publicId={UpdatesImages.inMaintenance} className="card-img-top img-fluid" alt="..."/>
@@ -39,7 +39,7 @@ const UpdatesSections: React.FC = () => {
                                     </div>
                             </motion.div>
                         </div>
-                        <div className="col-12 col-md-8 col-lg-5 my-3">
+                        <div className="col-12 col-md-6 col-lg-5 my-3">
                             <div className="card card-custom text-center text-md-start">
                                 <Image cloudName="nursingStaff" publicId={UpdatesImages.inMaintenance} className="card-img-top img-fluid" alt="..."/>
                                 <div className="card-body">
@@ -72,7 +72,7 @@ const UpdatesSections: React.FC = () => {
                     </motion.h4>
                 </div>
                     <div className="row d-flex justify-content-around mx-auto">
-                        <div className="col-12 col-md-8 col-lg-5 my-3">
+                        <div className="col-12 col-md-6 col-lg-5 my-3">
                             <div className="card card-custom text-center text-md-start">
                                 <Image cloudName="nursingStaff" publicId={UpdatesImages.inMaintenance} className="card-img-top img-fluid"  alt="..."/>
                                 <div className="card-body">
@@ -92,7 +92,7 @@ const UpdatesSections: React.FC = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-md-8 col-lg-5 my-3">
+                        <div className="col-12 col-md-6 col-lg-5 my-3">
                             <div className="card card-custom text-center text-md-start">
                                 <Image cloudName="nursingStaff" publicId={UpdatesImages.inMaintenance} className="card-img-top img-fluid"  alt="..."/>
                                 <div className="card-body">

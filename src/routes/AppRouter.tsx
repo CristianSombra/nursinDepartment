@@ -3,6 +3,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
 import { Navbar, Footer } from "../layouts";
 import { ScrollTop } from "../components";
+import { ToastContainer } from "react-toastify";
 import { 
     Landing,
     Home,
@@ -25,6 +26,7 @@ const AppRouter: React.FC = () => {
         <>
             {showNav && <Navbar/>}
             <ScrollTop/>
+            <ToastContainer/>
             <Routes>
                 <Route path="/" element={<div ref={landingRef}><Landing animate={landingInView} /></div>} />
                 <Route path="/Home" element={<div ref={homeRef}><Home animate={homeInView} /></div>} />

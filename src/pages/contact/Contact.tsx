@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { AnimateProps } from "../../utils";
 import { FormContact } from "../../components";
-import imgWhatsApp from "../../assets/whatsappcorporative.jpg";
+import ContactImages from "../../assets";
 import "../../styles";
 
 const Contact: React.FC<AnimateProps>= ({animate}) => {
@@ -74,7 +74,7 @@ const Contact: React.FC<AnimateProps>= ({animate}) => {
                                 </div>
                             </div>
                             <div className="col-12 col-md-10 col-lg-5">
-                                <img src={imgWhatsApp} className="img-fluid my-3" style={{width: '60%'}} alt="" />
+                                <img src={ContactImages.whatsApp} className="img-fluid my-3" style={{width: '60%'}} alt="" />
                             </div>
                             <div className="d-lg-none my-3">
                                 <a 

@@ -1,2 +1,2 @@
-export const logoLanding = "https://res.cloudinary.com/nursingstaff/image/upload/v1715565412/nursingHRRG/Views/Landing/logoLanding2_u62mas_nwasxa.png";
-export const titleLanding =  "https://res.cloudinary.com/nursingstaff/image/upload/v1715565406/nursingHRRG/Views/Landing/titleMobile_m3syu7_ccnobx.png";
+export const logoLanding = "https://res.cloudinary.com/nursingstaff/image/upload/v1721870089/nursingHRRG/Views/Landing/logoLanding_dajdbk.webp";
+export const titleLanding =  "https://res.cloudinary.com/nursingstaff/image/upload/v1721870087/nursingHRRG/Views/Landing/titleMobile_chcvsk.webp";

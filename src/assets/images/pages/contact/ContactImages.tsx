@@ -1,0 +1,1 @@
+export const whatsApp = "https://res.cloudinary.com/nursingstaff/image/upload/v1721870354/nursingHRRG/Views/Contact/whatsappcorporative_mt3srf.webp";

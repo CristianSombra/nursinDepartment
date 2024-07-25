@@ -1,1 +1,1 @@
-export const logoNav = "https://res.cloudinary.com/nursingstaff/image/upload/v1715565542/nursingHRRG/Components/Navbar/logoNav_p32t8i.png";
+export const logoNav = "https://res.cloudinary.com/nursingstaff/image/upload/v1721870134/nursingHRRG/Views/Home/logoNav_fflgi5.webp";

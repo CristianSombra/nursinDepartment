@@ -1,30 +1,62 @@
-# React + TypeScript + Vite
+<p align="center">
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114072/nursingHRRG/assets/LogoDepartamento_fondo_blanco_x11bhh.png" alt="Logo del Departamento de Enfermería" width="50%">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">Sitio Oficial del Departamento de Enfermería, Hospital Regional Rio Grande.</p>
+<p align="center">Ciudad de Rio Grande, Provincia de Tierra del Fuego.</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="https://enfermeriahrrg.com.ar/">Ingresar</a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+</div>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<hr>
 
-- Configure the top-level `parserOptions` property like this:
+### ¿A quien va dirigido? 👨‍🔬
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Dirigido a:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Enfermeros y enfermeras del Hospital Regional Río Grande: Proporcionamos recursos, información y capacitaciones relevantes para mejorar la práctica profesional y el desarrollo continuo en el campo de la enfermería.
+
+Comunidad de Enfermería de la Ciudad: Extendemos una invitación abierta a todos los profesionales de enfermería de nuestra comunidad para beneficiarse de los recursos y la información disponibles en esta plataforma.
+
+### ¿Quienes adhieren al proyecto? 💻
+
+Contenido desarrollado en colaboración con las siguientes oficinas:
+
+**Oficina de Recursos Humanos del Hospital Regional Rio Grande:** Contribuyó con información relevante sobre políticas y normativas internas, manteniendo actualizada la comunicación óptima para enfermería de todo el hospital.
+
+**Oficina de División de Docencia e Investigación - Hospital Regional Rio Grande:** Proporcionará recursos educativos, materiales de capacitación y contenido relacionado con la investigación en el campo de la enfermería para enriquecer el contenido de la página web.
+
+
+<hr>
+
+### Tecnologías que utilizo en éste proyecto 📚
+
+<br><br>
+<div align="center">
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114930/Portfolio/soft%20skills/figma_wbuwva.svg" alt="Figma" width="6%">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114930/Portfolio/soft%20skills/html5_nhdan7.svg" alt="HTML5" width="7%">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114932/Portfolio/soft%20skills/css_ega4yd.svg" alt="CSS" width="7%">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114933/Portfolio/soft%20skills/bs_a824sk.svg" alt="Bootstrap" width="10%">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114928/Portfolio/soft%20skills/nodejs_jtdybu.svg" alt="Node.js" width="8%">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114929/Portfolio/soft%20skills/js_dhfsyl.svg" alt="JavaScript" width="8%">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://res.cloudinary.com/nursingstaff/image/upload/v1718114926/Portfolio/soft%20skills/react_fafq9u.svg" alt="React" width="8%">
+</div>
+<br><br>
+
+<hr>
+
+
+Gracias por leer éste README de GitHub. ✅
+
+
+---

@@ -12,16 +12,23 @@ export const ModalInformationA: React.FC = () => {
                 tabIndex={-1}
                 aria-hidden="true"
                 aria-labelledby="aria-modal-4"
+                role="dialog"
             >
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="modal-header">
-                        <h5 className="modal-tittle">Comunicado</h5>
+                        <h3 id="aria-modal-4" className="modal-tittle">Comunicado</h3>
                     </div>
                         <div className="modal-body text-center">
-                            <Image cloudName="nursingStaff" publicId={ModalInformationImage.clock} className="my-3" style={{ borderRadius: '0' }} />
+                            <Image 
+                                cloudName="nursingStaff" 
+                                publicId={ModalInformationImage.clock} 
+                                className="my-3" 
+                                style={{ borderRadius: '0' }}
+                                alt="Imagen del reloj que indica la falta de capacitaciones"
+                                />
                             <h4>Todavía no hay capacitaciones.</h4>
-                            <h6 className="text-muted my-3">Se está trabajando con la oficina de divisón de docencia e investigación.</h6>
+                            <h5 className="text-muted my-3">Se está trabajando con la oficina de divisón de docencia e investigación.</h5>
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn-custom-primary" data-bs-dismiss="modal">Volver</button>

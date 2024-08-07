@@ -10,7 +10,11 @@ const SecondSectionNews: React.FC = () => {
                 <div className="col-12 col-lg-6">
                     <div className="row align-items-center">
                         <div className="col-12 col-lg-12 my-3">
-                            <Image cloudName="nursingStaff" publicId={HomeImages.card2} className="img-fluid img-custom-home" alt="" />
+                            <Image 
+                                cloudName="nursingStaff" 
+                                publicId={HomeImages.card2} 
+                                className="img-fluid img-custom-home" 
+                                alt="Imagen mostrando la colaboración de instituciones en los breaks de la Expo Enfermería" />
                         </div>
                         <div className="col-12 col-lg-12">
                             <h5 className="fw-bold text-center text-md-start">Colaboración</h5>
@@ -21,6 +25,7 @@ const SecondSectionNews: React.FC = () => {
                                     className="btn-custom-primary"
                                     data-bs-toggle="modal"
                                     data-bs-target="#modal-2"
+                                    aria-label="Ver más sobre la colaboración en los breaks de la Expo Enfermería"
                                 >
                                     Ver más
                                 </button>
@@ -31,7 +36,12 @@ const SecondSectionNews: React.FC = () => {
                 <div className="col-12 col-lg-6">
                     <div className="row align-items-center">
                         <div className="col-12 col-lg-12 my-3">
-                            <Image cloudName="nursingStaff" publicId={HomeImages.card3} className="img-fluid img-custom-home" alt="" />
+                            <Image 
+                                cloudName="nursingStaff" 
+                                publicId={HomeImages.card3} 
+                                className="img-fluid img-custom-home" 
+                                alt="Imagen del útimo break de la Expo Enfermería con disertantes y participantes" 
+                            />
                         </div>
                         <div className="col-12 col-lg-12">
                             <h5 className="fw-bold text-center text-md-start">Último break de la Expo</h5>
@@ -41,6 +51,7 @@ const SecondSectionNews: React.FC = () => {
                                     className="btn-custom-primary"
                                     data-bs-toggle="modal"
                                     data-bs-target="#modal-3"
+                                    aria-label="Ver más sobre el último break de la Expo Enfermería"
                                 >
                                     Ver más
                                 </button>

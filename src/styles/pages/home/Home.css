@@ -1,11 +1,13 @@
-.container-banner h2 {
+.container-banner h1 {
     color: #fff;
     font-family: 'Roboto 300', sans-serif;
+    font-size: 28px;
 }
 
-.container-banner h4 {
-    color: rgb(62, 62, 62);
+.container-banner h2 {
+    color: rgb(79, 79, 79);
     font-family: 'Roboto 300', sans-serif;
+    font-size: 30px;
 }
 
 
@@ -49,6 +51,7 @@
     top: 0;
     left: 0;
     padding: 20px;
+    font-size: 18px;
 }
 
 
@@ -59,8 +62,18 @@
     font-weight: bold;
 }
 
-.titles-mobile h5 {
+.titles-mobile h4 {
     color: grey;
+}
+
+/* Sección Carrusel */
+
+.container-carousel-home h1 {
+    font-size: 26px;
+}
+
+.container-carousel-home h2 {
+    font-size: 22px;
 }
 
 
@@ -110,13 +123,20 @@
 }
 
 @media (max-width: 992px) {
-    .container-banner h2 {
+    .container-banner h1 {
         font-size: 20px;
     }
     
-    .container-banner h4 {
+    .container-banner h2 {
         font-size: 18px;
-    
+    }
+
+    .container-carousel-home h1 {
+        font-size: 20px;
+    }
+
+    .container-carousel-home h2 {
+        font-size: 18px;
     }
     
     .custom-modal-dialog {

@@ -4,12 +4,20 @@ import "../../../../styles";
 
 const FrequentQuestions: React.FC = () => {
     return (
-        <div>
+        <main>
             <div className="accordion" id="accordion">
                 <div className="accordion-item accordion-custom">
                     <h2 className="accordion-header" id="headingOne">
-                        <button className="accordion-button accordion-custom" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            ¿Qué debo hacer si tengo un accidente en mi lugar de trabajo?
+                        <button 
+                            className="accordion-button accordion-custom" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#collapseOne" 
+                            aria-expanded="true" 
+                            aria-controls="collapseOne"
+                            aria-label="Pregunta sobre accidente en el lugar de trabajo"
+                        >    
+                                ¿Qué debo hacer si tengo un accidente en mi lugar de trabajo?
                         </button>
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
@@ -31,7 +39,15 @@ const FrequentQuestions: React.FC = () => {
                 </div>
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="headingTwo">
-                        <button className="accordion-button accordion-custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button 
+                            className="accordion-button accordion-custom collapsed" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#collapseTwo" 
+                            aria-expanded="false" 
+                            aria-controls="collapseTwo"
+                            aria-label="Pregunta sobre la solicitud de LAR o LEI"
+                        >
                             ¿Con cuanto tiempo de anticipación debo solicitar las LAR o LEI?
                         </button>
                     </h2>
@@ -66,7 +82,15 @@ const FrequentQuestions: React.FC = () => {
                 </div>
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="headingThree">
-                        <button className="accordion-button accordion-custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button 
+                            className="accordion-button accordion-custom collapsed" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#collapseThree" 
+                            aria-expanded="false" 
+                            aria-controls="collapseThree"
+                            aria-label="Pregunta sobre la solicitud de artículos 14F y 14H"
+                        >
                             ¿Con cuanto tiempo de anticipación debo solicitar los artículos 14F y 14H?
                         </button>
                     </h2>
@@ -91,7 +115,15 @@ const FrequentQuestions: React.FC = () => {
                 </div>
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFour">
-                        <button className="accordion-button accordion-custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <button 
+                            className="accordion-button accordion-custom collapsed" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#collapseFour" 
+                            aria-expanded="false" 
+                            aria-controls="collapseFour"
+                            aria-label="Pregunta sobre permisos de salida"
+                        >
                             ¿Cuáles son los pasos para solicitar un permiso de salida?
                         </button>
                     </h2>
@@ -117,7 +149,15 @@ const FrequentQuestions: React.FC = () => {
                 </div>
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFive">
-                        <button className="accordion-button accordion-custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <button 
+                            className="accordion-button accordion-custom collapsed" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#collapseFive" 
+                            aria-expanded="false" 
+                            aria-controls="collapseFive"
+                            aria-label="Pregunta sobre llegada tarde al trabajo"
+                        >
                             ¿Qué debo hacer en caso de llegar tarde a mi puesto de trabajo?
                         </button>
                     </h2>
@@ -139,7 +179,15 @@ const FrequentQuestions: React.FC = () => {
                 </div>
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="headingSix">
-                        <button className="accordion-button accordion-custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        <button 
+                            className="accordion-button accordion-custom collapsed" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#collapseSix" 
+                            aria-expanded="false" 
+                            aria-controls="collapseSix"
+                            aria-label="Pregunta sobre acceso al GEN expediente"
+                        >
                             ¿Cómo ingreso a mi GEN EXPEDIENTE?
                         </button>
                     </h2>
@@ -149,14 +197,22 @@ const FrequentQuestions: React.FC = () => {
                                 Para ingresar a tu GEN EXPEDIENTE debes utilizar el <strong>usuario y contraseña</strong> que te fue asignado para ingresar a la plataforma.
                             </p>
                             <p className="my-3">
-                                👉 La página para ingresar es <strong><a href="https://genexpediente.tdf.gob.ar/vub/" target="_blank">https://genexpediente.tdf.gob.ar/vub/</a></strong>
+                                👉 La página para ingresar es <strong><a href="https://genexpediente.tdf.gob.ar/vub/" target="_blank" rel="noopener noreferrer">https://genexpediente.tdf.gob.ar/vub/</a></strong>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="headingSeven">
-                        <button className="accordion-button accordion-custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        <button 
+                            className="accordion-button accordion-custom collapsed" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#collapseSeven" 
+                            aria-expanded="false" 
+                            aria-controls="collapseSeven"
+                            aria-label="Pregunta sobre olvido de usuario y contraseña en GEN EXPEDIENTE"
+                        >
                             ¿Que pasos debo realizar si no recuerdo mi usuario y contraseña de mi GEN EXPEDIENTE?
                         </button>
                     </h2>
@@ -166,7 +222,7 @@ const FrequentQuestions: React.FC = () => {
                                 En el caso que no puedas ingresar a tu GEN EXPEDIENTE debes solicitar un <strong>usuario y contraseña</strong> para ingresar a la plataforma, solicitando un <strong>ticket de asistencia</strong>.
                             </p>
                             <p className="my-3">
-                                👉 La página para ingresar es <strong><a href="https://ayuda.aif.gob.ar/" target="_blank">https://ayuda.aif.gob.ar/</a></strong>
+                                👉 La página para ingresar es <strong><a href="https://ayuda.aif.gob.ar/" target="_blank" rel="noopener noreferrer">https://ayuda.aif.gob.ar/</a></strong>
                             </p>
                         </div>
                     </div>
@@ -180,33 +236,14 @@ const FrequentQuestions: React.FC = () => {
                     <div id="collapseEight" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingEight" data-bs-parent="#accordion">
                         <div className="accordion-body">
                             <p className="mt-3 mb-4">
-                                Para ingresar a tu correo ZIMBRA debes utilizar tu <strong>usuario y contraseña</strong> con el que ingresas para descargar el <strong>recibo de sueldo</strong>, para ingresar a la plataforma.
-                            </p>
-                            <p className="my-3">
-                                👉 La página para ingresar es <strong><a href="https://zimbra.tdf.gob.ar/" target="_blank">https://zimbra.tdf.gob.ar/</a></strong>
+                                🚫 El correo ZIMBRA no se encuentra activo hasta el momento.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingNine">
-                        <button className="accordion-button accordion-custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                            ¿Que pasos debo realizar si no recuerdo mi usuario y contraseña de mi correo de ZIMBRA?
-                        </button>
-                    </h2>
-                    <div id="collapseNine" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingNine" data-bs-parent="#accordion">
-                        <div className="accordion-body">
-                            <p className="mt-3 mb-4">
-                                En el caso que no puedas ingresar a tu correo ZIMBRA debes solicitar un <strong>usuario y contraseña</strong> para ingresar a la plataforma, solicitando un <strong>ticket de asistencia</strong>.
-                            </p>
-                            <p className="my-3">
-                                👉 La página para ingresar es <strong><a href="https://ayuda.aif.gob.ar/" target="_blank">https://ayuda.aif.gob.ar/</a></strong>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+    
             </div>
-        </div>
+        </main>
     );
 };
 

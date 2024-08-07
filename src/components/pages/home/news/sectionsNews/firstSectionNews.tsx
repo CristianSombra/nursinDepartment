@@ -7,7 +7,12 @@ import { ModalFirstSection } from "./modalsNews/index";
 const FirstSectionNews: React.FC = () => {
     return(
         <div>
-            <Image cloudName="nursingStaff" publicId={HomeImages.card1} className="img-fluid img-custom-home my-3" alt="" />
+            <Image 
+                cloudName="nursingStaff" 
+                publicId={HomeImages.card1} 
+                className="img-fluid img-custom-home my-3" 
+                alt="Imagen de la Primera Expo Enfermería 2024, mostrando el evento" 
+            />
             <h5 className="fw-bold text-center text-md-start">Primera Expo Enfermería 2024</h5>
             <p className="text-center text-md-start">Durante la primera semana de mayo se realizó charlas de diferentes temas.</p>
             <div className="d-flex justify-content-center justify-content-md-end mb-4">
@@ -15,6 +20,7 @@ const FirstSectionNews: React.FC = () => {
                     className="btn-custom-primary"
                     data-bs-toggle="modal"
                     data-bs-target="#modal-1"
+                    aria-label="Ver más sobre la Primera Expo Enfermería 2024"
                     >
                         Ver más
                 </button>

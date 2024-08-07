@@ -18,11 +18,9 @@ const ModalFirstSection: React.FC = () => {
                                 cloudName="nursingStaff" 
                                 publicId={HomeImages.card1} 
                                 className="img-fluid img-custom-home-modal"
-                                alt=""
+                                alt="Exposición de Enfermería 2024 mostrando imagen del evento"
                             />
-                            <div className="mt-4" 
-                            style={{textAlign: 'justify'}}
-                                >
+                            <div className="mt-4" style={{textAlign: 'justify'}}>
                                 <p>
                                     Nos complace haber realizado <strong>la primera exposición del año</strong>, donde destacados profesionales compartieron valiosas experiencias y actualizaciones en enfermería. 
                                 </p>
@@ -49,7 +47,7 @@ const ModalFirstSection: React.FC = () => {
                             </div>
                         </div>
                         <div className="modal-footer">
-                            <button type="button" className="btn-custom-primary" data-bs-dismiss="modal">Volver</button>
+                            <button type="button" className="btn-custom-primary" data-bs-dismiss="modal" aria-label="Cerrar modal">Volver</button>
                         </div>
                     </div>
                 </div>

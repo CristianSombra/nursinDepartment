@@ -7,15 +7,15 @@ import { ModalInformationA } from "../../../modalInformation/ModalInformation";
 
 const CarouselHome: React.FC = () => {
     return(
-        <div>
-                <div className="row my-5 d-flex justity-content-center text-center">
+        <section>
+                <div className="row my-5 d-flex justify-content-center text-center container-carousel-home">
                 <motion.div
                     initial={{opacity:0, filter: 'blur(4px)'}}
                     animate={{opacity:1, filter: 'blur(0)'}}
                     transition={{duration:1.2, delay:0.6}}
                     >
-                        <h5 className="fw-bold">Próximas capacitaciones</h5>
-                        <h5 className="text-muted">Junio 2024</h5>
+                        <h1 className="fw-bold">Próximas capacitaciones</h1>
+                        <h2 className="text-muted">Junio 2024</h2>
                 </motion.div>
                 
                 <div className="col-12 col-md-10 col-lg-8 my-3 mx-auto">
@@ -32,13 +32,14 @@ const CarouselHome: React.FC = () => {
                         className="btn-custom-primary"
                         data-bs-toggle="modal"
                         data-bs-target="#modal-4"
+                        aria-label="Inscribirme a las capacitaciones"
                         >
                         Inscribirme
                     </button>
                     <ModalInformationA/>
                 </div>
             </div>
-        </div>
+        </section>
     )
 };
 

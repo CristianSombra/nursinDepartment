@@ -5,16 +5,20 @@ import '../../../../../../styles';
 
 const ModalSecondSectionA: React.FC = () => {
     return(
-            <div className="modal fade" id="modal-2" tabIndex={-1} aria-hidden="true" aria-labelledby="aria-modal-2" data-bs-backdrop="static">
+            <div className="modal fade" id="modal-2" tabIndex={-1} aria-hidden="true" aria-labelledby="aria-modal-2" data-bs-backdrop="static" role="dialog">
                 <div className="modal-dialog modal-dialog-centered custom-modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h4 className="modal-title fw-bold">
+                            <h4 id="aria-modal-2" className="modal-title fw-bold">
                                 Colaboración
                             </h4>
                         </div>
                         <div className="modal-body">
-                            <Image cloudName="nursingStaff" publicId={HomeImages.card2} className="img-fluid img-custom-home-modal" alt=""/>
+                            <Image 
+                                cloudName="nursingStaff" 
+                                publicId={HomeImages.card2} 
+                                className="img-fluid img-custom-home-modal" 
+                                alt="Agradecimiento a instituciones colaboradoras con la Expo de Enfermería"/>
                             <div
                                 className="mt-4" 
                                 style={{textAlign: 'justify'}}
@@ -29,7 +33,7 @@ const ModalSecondSectionA: React.FC = () => {
                             </div>
                         </div>
                         <div className="modal-footer">
-                            <button type="button" className="btn-custom-primary" data-bs-dismiss="modal">Volver</button>
+                            <button type="button" className="btn-custom-primary" data-bs-dismiss="modal" aria-label="Cerrar modal">Volver</button>
                         </div>
                     </div>
                 </div>
@@ -39,16 +43,20 @@ const ModalSecondSectionA: React.FC = () => {
 
 const ModalSecondSectionB: React.FC = () => {
     return(
-            <div className="modal fade" id="modal-3" tabIndex={-1} aria-hidden="true" aria-labelledby="aria-modal-3" data-bs-backdrop="static">
+            <div className="modal fade" id="modal-3" tabIndex={-1} aria-hidden="true" aria-labelledby="aria-modal-3" data-bs-backdrop="static" role="dialog">
                 <div className="modal-dialog modal-dialog-centered custom-modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h4 className="modal-title fw-bold">
+                            <h4 id="aria-modal-3" className="modal-title fw-bold">
                                 Último break de la Expo
                             </h4>
                         </div>
                         <div className="modal-body">
-                            <Image cloudName="nursingStaff" publicId={HomeImages.card3} className="img-fluid" alt=""/>
+                            <Image 
+                                cloudName="nursingStaff" 
+                                publicId={HomeImages.card3} 
+                                className="img-fluid" 
+                                alt="Momento de camaradería y colaboración en el último break de la Expo"/>
                             <div 
                                 className="mt-4" 
                                 style={{textAlign: 'justify'}}
@@ -59,14 +67,13 @@ const ModalSecondSectionB: React.FC = () => {
                             </div>
                         </div>
                         <div className="modal-footer">
-                            <button type="button" className="btn-custom-primary" data-bs-dismiss="modal">Volver</button>
+                            <button type="button" className="btn-custom-primary" data-bs-dismiss="modal" aria-label="Cerrar modal">Volver</button>
                         </div>
                     </div>
                 </div>
             </div>
     )
 }
-
 
 
 export {

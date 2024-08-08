@@ -2,6 +2,14 @@
     background: linear-gradient(to right, #7dd4ff, #fdd1a3);
 }
 
+.updates-title h1 {
+    font-size: 34px;
+}
+
+.updates-title-mobile h1 {
+    font-size: 28px;
+}
+
 .image-container-updates {
     position: relative;
     overflow: hidden;

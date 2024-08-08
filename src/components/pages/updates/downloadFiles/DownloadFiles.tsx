@@ -8,7 +8,7 @@ const DownloadFiles: React.FC = () => {
     const pdfPath = basePath + "licences/";
 
     return(
-        <div>
+        <section>
             <div className="row mt-4 justify-content-center ">
                 <div className="text-center">
                     <h4 className="fw-bold my-3" >Descargables de estudio</h4>
@@ -32,7 +32,7 @@ const DownloadFiles: React.FC = () => {
                                             initial={{y: 0}}
                                             whileHover={{y: -10}}
                                             transition={{duration: 0.2, delay: 0.1}}>
-                                                <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer">
+                                                <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer" aria-label="Descargar archivo PDF de Últimas bases de RCP">
                                                     <FontAwesomeIcon icon={faFilePdf} className="fs-4" />
                                                 </a>
                                         </motion.div>
@@ -45,7 +45,7 @@ const DownloadFiles: React.FC = () => {
                                             initial={{y: 0}}
                                             whileHover={{y: -10}}
                                             transition={{duration: 0.2, delay: 0.1}}>
-                                                <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer">
+                                                <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer" aria-label="Descargar archivo PDF de el mobbing y el ambiente laboral">
                                                     <FontAwesomeIcon icon={faFilePdf} className="fs-4" />
                                                 </a>
                                         </motion.div>
@@ -58,7 +58,7 @@ const DownloadFiles: React.FC = () => {
                                             initial={{y: 0}}
                                             whileHover={{y: -10}}
                                             transition={{duration: 0.2, delay: 0.1}}>
-                                                <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer">
+                                                <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer" aria-label="Descargar archivo PDF de Últimas actualizaciones en emergencias">
                                                     <FontAwesomeIcon icon={faFilePdf} className="fs-4" />
                                                 </a>
                                         </motion.div>
@@ -69,7 +69,7 @@ const DownloadFiles: React.FC = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

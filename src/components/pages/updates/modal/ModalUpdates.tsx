@@ -11,6 +11,7 @@ export const ModalDdiUpdate = () => {
                 tabIndex={-1}
                 aria-hidden="true"
                 aria-labelledby="aria-modal-ddi"
+                role="dialog"
             >
             <div className="modal-dialog">
                 <div className="modal-content">
@@ -18,7 +19,13 @@ export const ModalDdiUpdate = () => {
                         <h5 className="modal-tittle">División docencia e investigación</h5>
                     </div>
                         <div className="modal-body text-center">
-                            <Image cloudName="nursingStaff" publicId={UpdatesImages.ddi} className="img-fluid my-3" style={{ borderRadius: '0' }} />
+                            <Image 
+                                cloudName="nursingStaff" 
+                                publicId={UpdatesImages.ddi} 
+                                className="img-fluid my-3" 
+                                style={{ borderRadius: '0' }} 
+                                alt="Descripción de la imagen del eventi DDI"
+                                />
                             <h4>Ciclo de encuentros - Programa Garrahan Federal</h4>
                             <h6 className="text-muted my-3">Actividades <strong>no aranceladas</strong>. Certificación por cada encuentro.</h6>
                             <h6 className="text-muted my-3"><strong>Modalidad:</strong> A distancia</h6>
@@ -58,6 +65,7 @@ export const ModalDdiUpdate2 = () => {
                 tabIndex={-1}
                 aria-hidden="true"
                 aria-labelledby="aria-modal-ddi2"
+                role="dialog"
             >
             <div className="modal-dialog">
                 <div className="modal-content">
@@ -65,7 +73,13 @@ export const ModalDdiUpdate2 = () => {
                         <h5 className="modal-tittle">División docencia e investigación</h5>
                     </div>
                         <div className="modal-body text-center">
-                            <Image cloudName="nursingStaff" publicId={UpdatesImages.ddi} className="img-fluid my-3" style={{ borderRadius: '0' }} />
+                            <Image 
+                                cloudName="nursingStaff" 
+                                publicId={UpdatesImages.ddi} 
+                                className="img-fluid my-3" 
+                                style={{ borderRadius: '0' }} 
+                                alt="Descripción de la imagen DDI 2"
+                                />
                             <h4>Taller Virtual Interactivo</h4>
                             <h6 className="text-muted my-3">Actividade <strong>no arancelada</strong>.</h6>
                             <h6 className="text-muted my-3"><strong>Modalidad:</strong> A distancia</h6>

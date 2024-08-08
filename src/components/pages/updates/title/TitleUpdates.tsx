@@ -3,16 +3,16 @@ import { motion } from "framer-motion";
 
 const TitleUpdates: React.FC = () => {
     return(
-        <div>
-            <div className="row my-3 d-flex justify-content-center text-center d-none d-md-flex">
+        <section>
+            <div className="row my-3 d-flex justify-content-center text-center d-none d-md-flex updates-title">
                 <div className="col">
-                    <motion.h3 
+                    <motion.h1 
                         initial={{y: -50, opacity: 0, filter: 'blur(4px)'}}
                         animate={{y: 0, opacity: 1, filter: 'blur(0)'}}
                         transition={{duration: 1.2, delay: 0.4}}
                         className="fw-bold my-3">
                             Formación continua
-                        </motion.h3>
+                        </motion.h1>
                 <motion.p 
                         initial={{opacity:0, filter: 'blur(4px)'}}
                         animate={{opacity:1, filter: 'blur(0)'}}
@@ -26,26 +26,26 @@ const TitleUpdates: React.FC = () => {
                         animate={{opacity:1, filter: 'blur(0)'}}
                         transition={{duration: 1.2, delay: 0.6}}
                     >
-                        Para contactarse con la <strong>Oficina de División de Docencia e Investigación</strong> realizarlo a través de <strong style={{ fontStyle: 'italic' }} >ddocenciamsrg@tierradelfuego.gob.ar</strong>.
+                        Para contactarse con la <strong>Oficina de División de Docencia e Investigación</strong> realizarlo a través de <a href="mailto:docenciaeinvestigacionhrrg@gmail.com" style={{ fontStyle: 'italic' }}>docenciaeinvestigacionhrrg@gmail.com</a>.
                     </motion.p>
             </div>
-        </div>
+        </section>
     );
 };
 
 
 const TitleUpdatesMobile: React.FC = () => {
     return(
-        <div>
-            <div className="row my-5 d-flex justify-content-center text-center d-md-none">
+        <section>
+            <div className="row my-5 d-flex justify-content-center text-center d-md-none updates-title-mobile">
                 <div className="col-12 my-5">
-                    <motion.h3 
+                    <motion.h1 
                         initial={{y: -50, opacity: 0, filter: 'blur(4px)'}}
                         animate={{y: 0, opacity: 1, filter: 'blur(0)'}}
                         transition={{duration: 1.2, delay: 0.4}}
                         className="fw-bold my-3">
                             Formación continua
-                        </motion.h3>
+                        </motion.h1>
                     <motion.p 
                         initial={{opacity:0, filter: 'blur(4px)'}}
                         animate={{opacity:1, filter: 'blur(0)'}}
@@ -55,7 +55,7 @@ const TitleUpdatesMobile: React.FC = () => {
                     </motion.p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -6,16 +6,16 @@ import "../../styles"
 
 const Updates: React.FC<AnimateProps>= ({animate}) => {
     return(
-        <motion.section
+        <motion.main
             initial={{ opacity: 0 }}
             animate={animate ? { opacity: 1 } : { opacity: 0 }}
             transition={{ duration: 0.6 }}
             >
             
             {/* Sección Banner Updates */}
-            <section className="container">
+            <header className="container">
                 <BannerUpdates/>
-            </section>
+            </header>
 
             {/* Sección Título */}
             <section className="container">
@@ -42,7 +42,7 @@ const Updates: React.FC<AnimateProps>= ({animate}) => {
                 <DownloadFiles/>
             </section>
 
-        </motion.section>
+        </motion.main>
     )
 };
 

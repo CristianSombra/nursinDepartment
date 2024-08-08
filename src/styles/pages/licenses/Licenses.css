@@ -3,6 +3,10 @@
     background: linear-gradient(to right, #7dd4ff, #fdd1a3);
 }
 
+.title-licenses h1 {
+    font-size: 34px;
+}
+
 .orange-rectangle-licenses {
     position: absolute;
     top: -20px;
@@ -25,6 +29,12 @@
 
 .table-custom-licenses thead tr th {
     background-color: black;
+}
+
+@media (max-width: 992px) {
+    .title-licenses h1 {
+        font-size: 28px;
+    }
 }
 
 

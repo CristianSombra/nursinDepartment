@@ -28,7 +28,7 @@ const letterVariants = {
 
 const BannerUpdates: React.FC = () => {
     return(
-        <div>
+        <section>
             <div className="row my-5 d-flex justify-content-center position-relative d-none d-md-flex">
                 <div className="col">
                     <motion.div 
@@ -42,10 +42,15 @@ const BannerUpdates: React.FC = () => {
                         transition={{duration: 1.2, delay: 0.4}}
                         className="blue-rectangle-updates"></motion.div>
                     <div className="image-container-updates">
-                        <Image cloudName="nursingStaff" publicId={UpdatesImages.bannerUpdates} className="img-fluid col-12" alt="" />
+                        <Image 
+                            cloudName="nursingStaff" 
+                            publicId={UpdatesImages.bannerUpdates} 
+                            className="img-fluid col-12" 
+                            alt="Imagen del Banner de la sección Actualizaciones" 
+                        />
                         <div className="blue-rectangle-updates-over">
                             <div className="text-container">
-                                <motion.p
+                                <motion.blockquote
                                     className="banner-updates-text"
                                     variants={textContainerVariants}
                                     initial="hidden"
@@ -54,27 +59,27 @@ const BannerUpdates: React.FC = () => {
                                     {['"'].concat(sentence.split(""), '"').map((letter, index) => (
                         <motion.span key={index} variants={letterVariants}>{letter}</motion.span>
                         ))}
-                                </motion.p>
-                                <motion.p
+                                </motion.blockquote>
+                                <motion.cite
                                     className="banner-updates-author"
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     transition={{ duration: 1.2, delay: 1.8 }}
                                 >
                                     - Albert Einstein
-                                </motion.p>
+                                </motion.cite>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
 const BannerUpdatesMobile: React.FC = () => {
     return(
-        <div>
+        <section>
             <div className="row d-flex justify-content-center text-center d-md-none">
                 <div className="col">
                     <motion.div 
@@ -82,12 +87,17 @@ const BannerUpdatesMobile: React.FC = () => {
                         animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
                         transition={{duration: 1.6, delay: 0.6}}
                         className="image-container">
-                            <Image cloudName="nurginStaff" publicId={UpdatesImages.bannerUpdatesMobile} className="img-fluid" alt="" />
+                            <Image 
+                                cloudName="nurginStaff" 
+                                publicId={UpdatesImages.bannerUpdatesMobile} 
+                                className="img-fluid" 
+                                alt="Imagen del Banner de la sección Actualizaciones versión mobile"                                 
+                                />
                             <div className="image-overlay"></div>
                     </motion.div>
                 </div>
                 <div className="col-12 mt-4">
-                    <motion.p
+                    <motion.blockquote
                         variants={textContainerVariants}
                         initial="hidden"
                         animate="visible"
@@ -95,15 +105,15 @@ const BannerUpdatesMobile: React.FC = () => {
                         {['"'].concat(sentence.split(""), '"').map((letter, index) => (
                         <motion.span key={index} variants={letterVariants}>{letter}</motion.span>
                         ))}
-                    </motion.p>
-                    <motion.p
+                    </motion.blockquote>
+                    <motion.cite
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ duration: 1.2, delay: 1.8 }}
                         style={{ fontStyle: 'italic' }}
                     >
                         - Albert Einstein
-                    </motion.p>
+                    </motion.cite>
                 </div>
                 <motion.p 
                         initial={{opacity:0, filter: 'blur(4px)'}}
@@ -111,10 +121,10 @@ const BannerUpdatesMobile: React.FC = () => {
                         transition={{duration: 1.2, delay: 0.6}}
                         className="mt-3"
                         >
-                            Para contactarse con la <strong>Oficina de División de Docencia e Investigación</strong> realizarlo a través de <strong style={{ fontStyle: 'italic' }} >ddocenciamsrg@tierradelfuego.gob.ar</strong>.
+                            Para contactarse con la <strong>Oficina de División de Docencia e Investigación</strong> realizarlo a través de <a href="mailto:docenciaeinvestigacionhrrg@gmail.com" style={{ fontStyle: 'italic' }}>docenciaeinvestigacionhrrg@gmail.com</a>.
                 </motion.p>
             </div>
-        </div>
+        </section>
     )
 }
 

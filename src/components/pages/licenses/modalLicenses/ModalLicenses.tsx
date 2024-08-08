@@ -9,12 +9,13 @@ export const ModalQuestionLAR: React.FC = () => {
                 id="modal-5"
                 tabIndex={-1}
                 aria-hidden="true"
-                aria-labelledby="aria-modal-5"
+                aria-labelledby="modal-lar-label"
+                role="dialog"
             >
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="modal-header">
-                        <h5 className="modal-tittle fw-bold">Licencia Anual Reglamentaria</h5>
+                        <h4  id="modal-lar-label" className="modal-tittle fw-bold">Licencia Anual Reglamentaria</h4>
                     </div>
                         <div className="modal-body text-center">
                             <h5 className="my-3">
@@ -47,12 +48,13 @@ export const ModalQuestionLEI: React.FC = () => {
                 id="modal-6"
                 tabIndex={-1}
                 aria-hidden="true"
-                aria-labelledby="aria-modal-6"
+                aria-labelledby="modal-lei-label"
+                role="dialog"
             >
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="modal-header">
-                        <h5 className="modal-tittle fw-bold">Licencia Especial Invierno</h5>
+                        <h4 id="modal-lei-label" className="modal-tittle fw-bold">Licencia Especial Invierno</h4>
                     </div>
                         <div className="modal-body text-center">
                             <h5 className="my-3">
@@ -85,12 +87,13 @@ export const Modal14F: React.FC = () => {
                 id="modal-7"
                 tabIndex={-1}
                 aria-hidden="true"
-                aria-labelledby="aria-modal-7"
+                aria-labelledby="modal-14f-label"
+                role="dialog"
             >
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="modal-header">
-                        <h5 className="modal-tittle fw-bold">Licencia 14F</h5>
+                        <h4 id="modal-14f-label" className="modal-tittle fw-bold">Licencia 14F</h4>
                     </div>
                         <div className="modal-body text-center">
                             <h5 className="my-3">
@@ -120,12 +123,13 @@ export const Modal14H: React.FC = () => {
                 id="modal-8"
                 tabIndex={-1}
                 aria-hidden="true"
-                aria-labelledby="aria-modal-8"
+                aria-labelledby="modal-14h-label"
+                role="dialog"
             >
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="modal-header">
-                        <h5 className="modal-tittle fw-bold">Licencia 14H</h5>
+                        <h4 id="modal-14h-label" className="modal-tittle fw-bold">Licencia 14H</h4>
                     </div>
                         <div className="modal-body text-center">
                             <h5 className="my-3">

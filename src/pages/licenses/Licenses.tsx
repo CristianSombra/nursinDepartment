@@ -6,28 +6,29 @@ import "../../styles"
 
 const Licenses: React.FC<AnimateProps>= ({animate}) => {
     return(
-        <motion.section
+        <motion.main
             initial={{ opacity: 0 }}
             animate={animate ? { opacity: 1 } : { opacity: 0 }}
             transition={{ duration: 0.6 }}
+            role="main"
             >
             
             {/* Sección titulo */}
-            <section className="container container-licenses-title position-relative">
+            <header className="container container-licenses-title position-relative" aria-labelledby="title-licenses">
                 <TitleLicenses/>
-            </section>
+            </header>
 
             {/* Sección Licencias 1 */}
-            <section className="container">
+            <section className="container" aria-labelledby="licenses-first-section">
                 <LicensesFirstSection/>
             </section>
 
             {/* Sección licencias 2 */}
-            <section className="container">
+            <section className="container" aria-labelledby="licenses-second-section">
                 <LicensesSecondSection/>
             </section>
 
-        </motion.section>
+        </motion.main>
     )
 };
 

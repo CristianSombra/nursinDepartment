@@ -3,6 +3,10 @@
     background: linear-gradient(to right, #7dd4ff, #fdd1a3);
 }
 
+.title-contact h1 {
+    font-size: 34px;
+} 
+
 .orange-rectangle-contact {
     position: absolute;
     top: -20px;
@@ -56,11 +60,16 @@
     transition: transform .5s, color .3s;
 }
 
-
 .custom-area {
     height: 192px;
 }
 
+
+@media (max-width: 992px) {
+    .title-contact h1 {
+        font-size: 28px;
+    } 
+}
 
 @media (max-width: 768px) {
     .container-contact-title {

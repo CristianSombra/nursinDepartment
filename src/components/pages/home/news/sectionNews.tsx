@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FirstSectionNews, SecondSectionNews } from "./sectionsNews";
+import { Link } from "react-router-dom";
+// import { FirstSectionNews, SecondSectionNews } from "./sectionsNews";
 import "../../../../styles";
 
 const SectionNews: React.FC = () => {
@@ -15,14 +16,31 @@ const SectionNews: React.FC = () => {
                         <h4 className="fw-bold">Novedades</h4>
                 </motion.div>
                 <div className="col-12 col-md-10">
-                    <p>Bienvenidos a nuestra sección de novedades, donde compartimos los últimos avances y noticias en el campo de la enfermería, ofreciendo también recursos valiosos para apoyar a nuestra práctica profesional y crecimiento continuo.</p>
+                    <p>Sección donde compartimos los últimos avances, noticias e información vital para mantener actualizado a nuestra comunidad.</p>
                 </div>
-                <div className="col-12 col-md-10 col-lg-8">
+
+                <div className="col-12 col-md-10 col-lg-9 py-3">
+                    <p>👉 Dado los inconvenientes respecto al sistema ZIMBRA, los <strong>artículos 14F y 14H</strong> deberán realizarse siguiendo los puntos descriptos a continuación:</p>
+                        <ul>
+                            <li>Ir a la sección <a href="/licenses"><strong>LICENCIAS</strong></a> dentro de la plataforma.</li>
+                            <li>Descargar PDF del artículo que se quiera solicitar.</li>
+                            <li>Completar los datos correspondientes, luego imprimir.</li>
+                            <li>Firmar y sellar.</li>
+                            <li>Entregar al jefe inmediato</li>
+                        </ul>
+                    <p className="my-4">Si tienes alguna duda respecto a los artículos puedes ver <strong>Preguntas frecuentes</strong> al final de ésta sección.</p>
+                </div>
+
+                {/* Suspendido hasta próxima novedad con fotos */}
+                
+                {/* <div className="col-12 col-md-10 col-lg-8">
                     <FirstSectionNews/>
                 </div>
                 <div className="col-12 col-md-10 col-lg-8">
                     <SecondSectionNews/>
-                </div>
+                </div> */}
+
+
             </div>
         </div>
     );

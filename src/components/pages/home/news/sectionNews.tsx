@@ -31,6 +31,19 @@ const SectionNews: React.FC = () => {
                     <p className="my-4">Si tienes alguna duda respecto a los artículos puedes ver <strong>Preguntas frecuentes</strong> al final de ésta sección.</p>
                 </div>
 
+
+                <div className="col-12 col-md-10 col-lg-9 py-3">
+                    <p>👉 En los siguientes videos, podrás ver el paso a paso en la carga de las licencias LAR y LEI:</p>
+                    <div className="ratio ratio-16x9">
+                        <iframe 
+                            src="https://www.youtube.com/embed/Wop7AI_AJP8" 
+                            title="Youtube video 1"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                    <p className="my-4">Si tienes alguna duda respecto a las licencias puedes ver <strong>Preguntas frecuentes</strong> al final de ésta sección.</p>
+                </div>
+
                 {/* Suspendido hasta próxima novedad con fotos */}
                 
                 {/* <div className="col-12 col-md-10 col-lg-8">

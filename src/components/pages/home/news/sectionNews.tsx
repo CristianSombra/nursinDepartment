@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 // import { Link } from "react-router-dom";
 // import { FirstSectionNews, SecondSectionNews } from "./sectionsNews";
 import "../../../../styles";
 
 const SectionNews: React.FC = () => {
+
+    const [videoId, setVideoId] = useState<string>('Wop7AI_AJP8')
+
     return(
         <div>
             <div className="row my-5 d-flex justify-content-center">
@@ -36,11 +39,26 @@ const SectionNews: React.FC = () => {
                     <p>👉 En los siguientes videos, podrás ver el paso a paso en la carga de las licencias LAR y LEI:</p>
                     <div className="ratio ratio-16x9">
                         <iframe 
-                            src="https://www.youtube.com/embed/Wop7AI_AJP8" 
-                            title="Youtube video 1"
+                            src={`https://www.youtube.com/embed/${videoId}`}
+                            title="Youtube video"
                             allowFullScreen
                         ></iframe>
                     </div>
+                    <div className="mb-3 text-center my-3">
+                        <button
+                            className="btn-custom-secondary me-2"
+                            onClick={()=> setVideoId('Wop7AI_AJP8')}
+                            >
+                            Parte 1
+                        </button>
+                        <button
+                            className="btn-custom-secondary"
+                            onClick={() => setVideoId('ayE54VXXmxU')}
+                            >
+                            Parte 2
+                        </button>
+                    </div>
+
                     <p className="my-4">Si tienes alguna duda respecto a las licencias puedes ver <strong>Preguntas frecuentes</strong> al final de ésta sección.</p>
                 </div>
 

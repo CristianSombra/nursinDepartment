@@ -4,8 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 
 const DownloadFiles: React.FC = () => {
-    const basePath = '/';
-    const pdfPath = basePath + "licences/";
+    const pdfPath = "/public/licenses/";
 
     return(
         <section>

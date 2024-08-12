@@ -6,8 +6,7 @@ import LicensesImages from "../../../../assets";
 
 const LicensesFirstSection: React.FC = () => {
 
-    const basePath = '/';
-    const pdfPath = basePath + "licences/";
+    const pdfPath = "/public/licenses/";
 
     return(
         <div>

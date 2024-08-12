@@ -5,8 +5,7 @@ import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 
 const LicensesSecondSection: React.FC = () => {
 
-    const basePath = '/';
-    const pdfPath = basePath + "licences/";
+    const pdfPath = "/public/licenses/";
 
     return(
         <div>

@@ -12,7 +12,7 @@ const TitleUpdates: React.FC = () => {
                         transition={{duration: 1.2, delay: 0.4}}
                         className="fw-bold my-3">
                             Formación continua
-                        </motion.h1>
+                    </motion.h1>
                 <motion.p 
                         initial={{opacity:0, filter: 'blur(4px)'}}
                         animate={{opacity:1, filter: 'blur(0)'}}

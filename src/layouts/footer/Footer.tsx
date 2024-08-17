@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
             <div className="row d-flex justify-content-center text-center">
                             <div className="col-auto">
                                 <a 
-                                    href="https://www.instagram.com/hospitalregionalriogrande/" 
+                                    href="https://www.instagram.com/enfermeriahrrg_ok" 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     className="red-social"
@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
                             </div>
                             <div className="col-auto">
                                 <a
-                                    href="https://www.facebook.com/RedDeSaludRG"
+                                    href="https://www.facebook.com/enfermeriahrrg"
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     className="red-social"

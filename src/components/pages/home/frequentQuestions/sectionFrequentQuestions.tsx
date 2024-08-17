@@ -14,9 +14,7 @@ const SectionFrequentQuestions: React.FC = () => {
                         <h4 className="fw-bold">Preguntas frecuentes</h4>
                 </motion.div>
                 <div className="col-12 col-md-10">
-                    <p
-                        style={{textAlign: 'justify'}}
-                        >
+                    <p className="text-center">
                         Bienvenido a nuestra sección de Preguntas Frecuentes, desarrollado junto a la oficina de <strong>Recursos Humanos</strong>. Aquí encontrarás respuestas a las consultas más comunes. Nuestro objetivo es proporcionarte toda la información necesaria para una mejor experiencia al momento de tener que realizar alguna acción. Si no encuentras la respuesta que buscas, no dudes en ponerte en contacto con nosotros enviándonos un mensaje en la <strong>sección de contacto</strong>.
                     </p>
                 </div>

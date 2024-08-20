@@ -91,7 +91,7 @@ const FormContact: React.FC<FormContactProps>= ({ onSuccess }) => {
         <div className="row">
             <h4 className="fw-bold">Escríbenos</h4>
             <p className="my-3">
-                Este formulario de contacto está disponible para todos los <strong>profesionales enfermeros</strong> e <strong>instituciones</strong> interesadas en comunicarse con el <strong>Departamento de Enfermería del Hospital Regional Río Grande</strong>. Nos complace atender cualquier consulta relacionados con temas laborales o cualquier otra inquietud relevante para nuestra práctica profesional. Por favor, <strong>completa el formulario</strong> a continuación y te responderemos a la brevedad posible. Apreciamos tu interés en comunicarte con nosotros.
+                Formulario disponible para todos los <strong>profesionales enfermeros</strong> e <strong>instituciones</strong> interesadas en comunicarse con el <strong>Departamento de Enfermería del Hospital Regional Río Grande</strong>. Nos complace atender cualquier consulta relacionados con temas laborales o cualquier otra inquietud relevante para nuestra práctica profesional. Por favor, completa el siguiente <strong>formulario</strong> y te responderemos a la brevedad posible.
             </p>
 
             <div className="col-12 col-md-12 col-lg-6 mt-5 position-relative">

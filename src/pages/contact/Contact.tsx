@@ -40,7 +40,7 @@ const Contact: React.FC<AnimateProps>= ({animate}) => {
                             animate={{opacity:1, filter: 'blur(0)'}}
                             transition={{duration: 1.2, delay: 0.6}}
                             >
-                                Esta sección está destinada a mantener contacto con la comunidad profesional de enfermería, tanto a nivel individual como institucional. Estamos aquí para escuchar tus consultas, utiliza nuestro <strong>formulario de contacto</strong> o nuestra línea de <strong>WhatsApp Corporativo</strong> para conectarte con nosotros. Esperamos colaborar juntos en la búsqueda de la excelencia en el cuidado de la salud.
+                                Estamos aquí para escuchar tus consultas, utiliza nuestro <strong>formulario de contacto</strong> o nuestra línea de <strong>WhatsApp Corporativo</strong> para conectarte con nosotros.
                         </motion.p>
                     </div>
                 </div>
@@ -57,10 +57,10 @@ const Contact: React.FC<AnimateProps>= ({animate}) => {
                             <h4 className="fw-bold">WhatsApp Corporativo</h4>
                             <div className="col-12 col-md-8 col-lg-5">
                                 <p className="my-3">
-                                    Esta vía de comunicación está <strong>destinada exclusivamente</strong> a los <strong>enfermeros activos</strong> del <strong>Hospital Regional Río Grande</strong>, por lo que no se responderan mensajes ajenos al plantel activo de la institución.
+                                    Vía de comunicación está <strong>exclusiva</strong> sólo para <strong>enfermeros activos</strong> del <strong>Hospital Regional Río Grande</strong>, por lo que no se responderan mensajes ajenos al plantel activo de la institución.
                                 </p>
                                 <p className="my-3">
-                                    Si eres parte de nuestro equipo y deseas <strong>contactar</strong> al <strong>Departamento de Enfermería</strong> por un tema específico laboral, por favor haz click en contacto. Tu consulta será atendida a la brevedad posible.
+                                    Si eres enfermero del HRRG y deseas contactar al <strong>Departamento de Enfermería</strong> por un tema específico laboral, haz click en contacto y tu consulta será atendida a la brevedad posible.
                                 </p>
 
                                 <div className="d-none d-lg-block">

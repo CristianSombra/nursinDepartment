@@ -23,13 +23,16 @@ const FrequentQuestions: React.FC = () => {
                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
                         <div className="accordion-body">
                             <p className="my-3">
-                                👉 Llamar inmediatamente al <strong>0800333133</strong>.
+                                👉 Notificar <strong>inmediatamente</strong> al supervisor.
+                            </p>
+                            <p className="my-3">
+                                👉 Llamar al <strong>0800-333-133</strong> (Provincia ART).
                             </p>
                             <p className="my-3">
                                 👉 Dirigirse a la guardia central e informar lo sucedido al médico para que realice la <strong>planilla</strong> correspondiente.
                             </p>
                             <p className="my-3">
-                                👉 Notificar inmediatamente al supervisor para realizar <strong>el informe</strong>, detallando exactamente cómo fue el incidente y datos del agente.
+                                👉 Dirigirse a supervisión para realizar <strong>el informe</strong>, detallando exactamente cómo fue el incidente y datos del agente.
                             </p>
                             <p className="my-3">
                                 ✅ Presentar todo en <strong>RRHH</strong>.
@@ -53,7 +56,7 @@ const FrequentQuestions: React.FC = () => {
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            <p className="mt-3">La <strong>Licencia Anual Reglamentaria</strong> (LAR) deben solicitarse con 15 días de anticipación independientemente de la <strong>fracción</strong> que se requiera. En caso de excedido los 15 días el agente deberá consultar con su Jefe Inmediato (Jefe de servicio) y en caso de autorizarlas debe presentar una nota de <strong>fuera de término</strong>.
+                            <p className="mt-3">La <strong>Licencia Anual Reglamentaria</strong> (LAR) deben solicitarse con 15 días de anticipación independientemente de la <strong>fracción</strong> que se requiera. En caso de excedido los 15 días, el agente deberá consultar con su Jefe Inmediato (Jefe de servicio) y en caso de autorizarlas debe presentar una nota de <strong>fuera de término</strong>.
                             </p>
                             <p className="my-3">
                                 ✅ Podrá ser utilizada durante todo el año.
@@ -62,7 +65,7 @@ const FrequentQuestions: React.FC = () => {
                                 🚫 No podrán adicionar en el día inmediato anterior ni posterior laborable de la Licencia Especial Invierno <strong>(LEI)</strong>.
                             </p>
                             <hr />
-                            <p className="mt-3">Las <strong>Licencia Especial Invierno</strong> (LEI) deben solicitarse con una semana de anticipación. En caso de excedido la semana el agente deberá consultar con su Jefe Inmediato (Jefe de servicio) y en caso de autorizarlas debe presentar una nota de <strong>fuera de término</strong>.</p>
+                            <p className="mt-3">Las <strong>Licencia Especial Invierno</strong> (LEI) deben solicitarse con una semana de anticipación. En caso de excedido la semana, el agente deberá consultar con su Jefe Inmediato (Jefe de servicio) y en caso de autorizarlas debe presentar una nota de <strong>fuera de término</strong>.</p>
                             <p className="my-3">
                                 ✅ Podrá ser utilizada cualquier día de la semana, como menciona en en <strong>Artículo 6° del decreto 2024</strong>.
                             </p>
@@ -71,11 +74,14 @@ const FrequentQuestions: React.FC = () => {
                             </p>
                             <div className="text-center my-5">
                                 <Link to="/licenses" className="btn-custom-secondary">
-                                    Ir a Licencias
+                                    Licencias
                                 </Link>
                             </div>
-                            <p className="my-3">
-                                👉 Ambas licencias deben ser enviadas por <strong>GEN EXPEDIENTE</strong>.
+                            <p className="my-3 text-center">
+                                Ambas licencias deben ser enviadas por 
+                                <a href="https://genexpediente.tdf.gob.ar/" className="text-decoration-none" target="_blank" rel="noopener noreferrrer">
+                                    <strong> GEN EXPEDIENTE</strong>.
+                                </a>
                             </p>
                         </div>
                     </div>
@@ -103,11 +109,11 @@ const FrequentQuestions: React.FC = () => {
                                 👉 Pueden ser dadas de baja por <strong>razones de servicio.</strong>
                             </p>
                             <p className="my-3">
-                                ✅ En la sección de <strong>Licencias</strong> puedes descargar el <strong>PDF Editable</strong> y enviarlo a través de ZIMBRA al <strong>Jefe de servicio</strong>.
+                                ✅ En la sección de <strong>Licencias</strong> puedes descargar el <strong>PDF Editable</strong> y presentarlo al <strong>Jefe de servicio</strong>, para su autorización.
                             </p>
                             <div className="text-center my-4">
                                 <Link to="/licenses" className="btn-custom-secondary">
-                                    Ir a Licencias
+                                    Licencias
                                 </Link>
                             </div>
                         </div>
@@ -130,18 +136,21 @@ const FrequentQuestions: React.FC = () => {
                     <div id="collapseFour" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingFour" data-bs-parent="#accordion">
                         <div className="accordion-body">
                             <p className="my-3">
-                                Debe solicitarse al <strong>jefe de servicio</strong> o en caso contrario al Supervisor de turno, para su autorización. Una vez autorizado completar el formulario y presentar.
+                                ✅ Debe solicitarse al <strong>jefe de servicio</strong> para su autorización. Una vez autorizado completar el formulario y presentar.
+                            </p>
+                            <p className="my-3">
+                                ✅ En caso contrario que el Jefe directo se encuentre de licencia o no éste en la institución, deberá solicitarse al Supervisor de turno. En caso de autorizarse, deberá completar el formulario y presentar al Supervisor.
                             </p>
                             <p className="my-3">
                                 👉 El agente debe devolverlo <strong>dentro de las 48 hs.</strong>
                             </p>
                             <p className="my-3">
-                                ✅ Si es por un turno medico, presenta la <strong>constancia médica</strong> del turno y <strong>no</strong> se devuelve la hora.
+                                ✅ Si es por un turno medico, presentar la <strong>constancia médica</strong> del turno y <strong>no</strong> se devuelve la hora.
                             </p>
                             
                             <div className="text-center my-4">
                                 <Link to="/licenses" className="btn-custom-secondary">
-                                    Ir a Licencias
+                                    Licencias
                                 </Link>
                             </div>
                         </div>
@@ -164,15 +173,18 @@ const FrequentQuestions: React.FC = () => {
                     <div id="collapseFive" className="accordion-collapse accordion-custom collapse" aria-labelledby="headingFive" data-bs-parent="#accordion">
                         <div className="accordion-body">                        
                             <p className="mt-3 mb-4">
-                                ✅ La llegada tarde <strong>se contempla</strong> hasta <strong>10 minutos posterior a su inicio de jornada</strong>, y se debe notificar al <strong>Departamento de Enfermería</strong>
+                                ✅ La llegada tarde <strong>se contempla</strong> hasta <strong>10 minutos posterior a su inicio de jornada</strong>, y se debe notificar al <strong>Departamento de Enfermería</strong>.
                             </p>
                             <p className="mt-3 mb-4">
-                                🚫 Caso contraro quedará como llegada tarde.
+                                🚫 Caso contraro quedará como llegada tarde, siendo notificado RRHH.
                             </p>
-                            <div className="text-center my-4">
+                            <div className="text-center my-5">
                                 <Link to="/contact" className="btn-custom-secondary">
-                                    Ir a Contacto
+                                    Contacto
                                 </Link>
+                                <p className="text-center text-muted mt-4">
+                                    Buscar el <strong>WhatsApp Corporativo</strong>.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -197,7 +209,7 @@ const FrequentQuestions: React.FC = () => {
                                 Para ingresar a tu GEN EXPEDIENTE debes utilizar el <strong>usuario y contraseña</strong> que te fue asignado para ingresar a la plataforma.
                             </p>
                             <p className="my-3">
-                                👉 La página para ingresar es <strong><a href="https://genexpediente.tdf.gob.ar/vub/" target="_blank" rel="noopener noreferrer">https://genexpediente.tdf.gob.ar/vub/</a></strong>
+                                👉 La página para ingresar es <strong><a href="https://genexpediente.tdf.gob.ar/" target="_blank" rel="noopener noreferrer">https://genexpediente.tdf.gob.ar/</a></strong>
                             </p>
                         </div>
                     </div>

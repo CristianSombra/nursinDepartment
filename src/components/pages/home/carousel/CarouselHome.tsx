@@ -15,7 +15,7 @@ const CarouselHome: React.FC = () => {
                     transition={{duration:1.2, delay:0.6}}
                     >
                         <h1 className="fw-bold">Próximas capacitaciones</h1>
-                        <h2 className="text-muted">Junio 2024</h2>
+                        <h2 className="text-muted">Agosto 2024</h2>
                 </motion.div>
                 
                 <div className="col-12 col-md-10 col-lg-8 my-3 mx-auto">

@@ -25,7 +25,7 @@ const SectionNews: React.FC = () => {
                 <div className="col-12 col-md-10 col-lg-9 py-3">
                     <p>👉 Dado los inconvenientes respecto al sistema ZIMBRA, los <strong>artículos 14F y 14H</strong> deberán realizarse siguiendo los puntos descriptos a continuación:</p>
                         <ul>
-                            <li>Ir a la sección <a href="/licenses"><strong>LICENCIAS</strong></a> dentro de la plataforma.</li>
+                            <li>Ir a la sección <a href="/licenses" className="text-decoration-none"><strong>LICENCIAS</strong></a> dentro de la plataforma.</li>
                             <li>Descargar PDF del artículo que se quiera solicitar.</li>
                             <li>Completar los datos correspondientes, luego imprimir.</li>
                             <li>Firmar y sellar.</li>

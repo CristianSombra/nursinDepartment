@@ -2,12 +2,14 @@
     color: #fff;
     font-family: 'Roboto 300', sans-serif;
     font-size: 28px;
+    font-style: italic;
 }
 
 .container-banner h2 {
     color: rgb(79, 79, 79);
     font-family: 'Roboto 300', sans-serif;
-    font-size: 26px;
+    font-size: 22px;
+    font-style: italic;
 }
 
 

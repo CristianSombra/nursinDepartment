@@ -4,13 +4,38 @@ import { motion } from "framer-motion";
 import { ModalQuestionLAR, ModalQuestionLEI, Modal14F, Modal14H } from "../modalLicenses/ModalLicenses";
 import LicensesImages from "../../../../assets";
 
-const LicensesFirstSection: React.FC = () => {
+const sentence = "Recuerda que es bueno que organices con tus compañeros de turno para la correcta planificación del personal.";
 
+const sentenceVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+        opacity: 1,
+        transition: {
+            delay: 0.6,
+            staggerChildren: 0.04 
+        }
+    }
+};
+
+const letterVariants = {
+    hidden: { opacity: 0, x: -20 },
+    visible: { opacity: 1, x: 0 }
+};
+
+const LicensesFirstSection: React.FC = () => {
     const pdfPath = "/licenses/";
+    const letters = sentence.split("");
 
     return(
         <div>
             <div className="row my-5 d-flex justify-content-center align-items-center">
+                <p className="text-center text-muted mb-5 fst-italic">
+                    <motion.span variants={sentenceVariants} initial="hidden" animate="visible">
+                        {letters.map((letter, index) => (
+                            <motion.span key={index} variants={letterVariants}>{letter}</motion.span>
+                        ))}
+                    </motion.span>
+                </p>
                 <div className="col-10 col-md-5 col-lg-3 mb-3">
                     <motion.div
                         whileHover={{ scale: 1.02 }}

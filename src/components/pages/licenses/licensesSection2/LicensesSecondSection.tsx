@@ -11,16 +11,16 @@ const LicensesSecondSection: React.FC = () => {
         <div>
             <div className="row mt-5 justify-content-center ">
                 <div className="text-center col-12 col-md-10">
-                    <h4 className="fw-bold my-3">Otras licencias descargables</h4>
-                    <p className="my-3">En la siguiente tabla podrás acceder a otras licencias o documentos para descargar en formato PDF, para completar y enviar por <strong>GEN</strong> o <strong>ZIMBRA</strong> según corresponda.</p>
+                    <h4 className="fw-bold my-3">Otros documentos</h4>
+                    <p className="my-3">En la siguiente tabla podrás acceder a otros documentos para descargar en formato PDF, completar y presentar según corresponda.</p>
                 </div>
                 <div className="col-12 col-md-10 col-lg-8 my-3">
                     <div className="table-responsive">
                         <table className="table table-striped table-hover table-lg table-custom-licenses">
-                            <caption className="text-center">Lista de licencias</caption>
+                            <caption className="text-center">Lista de documentos</caption>
                             <thead>
                                 <tr className="table-dark text-center">
-                                    <th>Licencias</th>
+                                    <th>Documentos</th>
                                     <th>Archivo</th>
                                 </tr>
                             </thead>
@@ -40,6 +40,32 @@ const LicensesSecondSection: React.FC = () => {
                                 </tr>
                                 <tr>
                                     <th>Formulario de cambio de turno</th>
+                                    <th className="text-center">
+                                        <motion.div 
+                                            initial={{y: 0}}
+                                            whileHover={{y: -10}}
+                                            transition={{duration: 0.2, delay: 0.1}}>
+                                                <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer">
+                                                    <FontAwesomeIcon icon={faFilePdf} className="fs-4" />
+                                                </a>
+                                        </motion.div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>Nota de fuera de término - LAR</th>
+                                    <th className="text-center">
+                                        <motion.div 
+                                            initial={{y: 0}}
+                                            whileHover={{y: -10}}
+                                            transition={{duration: 0.2, delay: 0.1}}>
+                                                <a href={pdfPath + "licencia.pdf"} target="_blank" rel="noreferrer">
+                                                    <FontAwesomeIcon icon={faFilePdf} className="fs-4" />
+                                                </a>
+                                        </motion.div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>Nota de fuera de término - LEI</th>
                                     <th className="text-center">
                                         <motion.div 
                                             initial={{y: 0}}

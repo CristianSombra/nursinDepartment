@@ -15,7 +15,7 @@ const UpdatesSections: React.FC = () => {
                         animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
                         transition={{duration: 1.2, delay: 0.4}}
                         className="fw-bold my-3">
-                            Capacitaciones mes de Junio
+                            Capacitaciones mes de Agosto
                     </motion.h4>
                     <div className="row d-flex justify-content-around mx-auto">
                         <div className="col-12 col-md-6 col-lg-5 my-3">
@@ -68,7 +68,7 @@ const UpdatesSections: React.FC = () => {
                         animate={{x: 0, opacity: 1, filter: 'blur(0)'}}
                         transition={{duration: 1.2, delay: 0.4}}
                         className="fw-bold mt-5 my-3">
-                            Capacitaciones mes de Julio
+                            Capacitaciones mes de Septiembre
                     </motion.h4>
                 </div>
                     <div className="row d-flex justify-content-around mx-auto">

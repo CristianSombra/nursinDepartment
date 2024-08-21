@@ -12,7 +12,7 @@ export const CarouselNews: React.FC = React.memo(() => {
         </div>
         <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <Image cloudName="nursingStaff" publicId={HomeImages.bannerNews} className="d-block w-100" alt="Capacitación próxima - imagen 1" />
+                    <Image cloudName="nursingStaff" publicId={HomeImages.bannerDDI} className="d-block w-100" alt="Capacitación próxima - imagen 1" />
                 </div>
                 <div className="carousel-item">
                     <Image cloudName="nursingStaff" publicId={HomeImages.bannerNews} className="d-block w-100" alt="Capacitación próxima - imagen 2" />

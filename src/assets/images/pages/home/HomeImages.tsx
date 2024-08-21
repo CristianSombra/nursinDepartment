@@ -4,5 +4,5 @@ export const bannerNews = "https://res.cloudinary.com/nursingstaff/image/upload/
 export const card1 = "https://res.cloudinary.com/nursingstaff/image/upload/v1721870187/nursingHRRG/Views/Home/News/Conferencia_velgak.webp"
 export const card2 = "https://res.cloudinary.com/nursingstaff/image/upload/v1721870178/nursingHRRG/Views/Home/News/colegioenf_s1weda.webp";
 export const card3 = "https://res.cloudinary.com/nursingstaff/image/upload/v1721870169/nursingHRRG/Views/Home/News/break_sn2efj.webp";
-export const bannerDDI = "";
+export const bannerDDI = "https://res.cloudinary.com/nursingstaff/image/upload/v1724270956/nursingHRRG/Views/Home/Banner_home_fkljuz.png";
 export const bannerDDI2 = "";

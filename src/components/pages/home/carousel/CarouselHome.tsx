@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { CarouselNews } from "./CarouselNews";
 import { ModalInformationA } from "../../../modalInformation/ModalInformation";
-// import { handleButtonClick } from "../formInscription/formInscription";
+import { handleButtonClick } from "../../../../utils";
 
 
 const CarouselHome: React.FC = () => {
@@ -22,20 +22,20 @@ const CarouselHome: React.FC = () => {
                     <CarouselNews/>
                 </div>
                 <div className="col-12">
-                    {/* <button 
-                        className="btn-custom"
+                    <button 
+                        className="btn-custom-secondary"
                         onClick={handleButtonClick}
                         >
                         Inscribirme
-                    </button> */}
-                    <button 
+                    </button>
+                    {/* <button 
                         className="btn-custom-primary"
                         data-bs-toggle="modal"
                         data-bs-target="#modal-4"
                         aria-label="Inscribirme a las capacitaciones"
                         >
                         Inscribirme
-                    </button>
+                    </button> */}
                     <ModalInformationA/>
                 </div>
             </div>
